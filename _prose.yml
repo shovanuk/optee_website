@@ -5,7 +5,7 @@ prose:
         field:
           element: "hidden"
           value: "articles"
-    _assets:
+    build:
       - name: "category"
         field:
           element: "hidden"
