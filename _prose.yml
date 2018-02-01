@@ -1,2 +1,6 @@
 metadata:
 	about:
+    	- name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
