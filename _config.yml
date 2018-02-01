@@ -1,7 +1,4 @@
 prose:
-  rooturl: '_posts'
-  siteurl: 'https://www.op-tee.org/'
-  relativeLinks: 'https://www.op-tee.org/'  
   metadata:
     _posts:
       - name: "layout"
