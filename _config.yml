@@ -1,12 +1,3 @@
 prose:
   metadata:
     _posts/static:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
