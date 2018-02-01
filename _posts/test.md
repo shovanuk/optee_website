@@ -2,7 +2,6 @@
 layout: post
 published: false
 title: Blogging Like a Hacker
-tags: ''
 ---
 ## A New Post
 
