@@ -1,10 +1,30 @@
----
-title: Optee Website
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://www.op-tee.org/'
+  relativeLinks: 'https://www.op-tee.org/'  
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
