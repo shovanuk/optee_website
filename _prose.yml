@@ -1,6 +1,6 @@
 metadata:
-	about:
-    	- name: "layout"
-        field:
-          element: "hidden"
-          value: "blog"
+  _posts:
+    - name: "layout"
+    field:
+      element: "hidden"
+      value: "blog"
